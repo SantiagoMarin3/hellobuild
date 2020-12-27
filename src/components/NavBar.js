@@ -10,7 +10,8 @@ export default () => (
                     <NavLink exact activeClassName="active" to="./calendar" className="nav-link" >Calendar</NavLink> 
                     <NavLink exact activeClassName="active" to="./github" className="nav-link" aria-current="page">Github</NavLink>                                      
                 </div>
+                < AmplifySignOut /> 
         </div>
-        < AmplifySignOut /> 
+        
     </nav>  
 );
